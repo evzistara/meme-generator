@@ -4,7 +4,7 @@ function Form() {
   const [newImage, setNewImage] = useState({
     topText: "",
     bottomText: "",
-    randomImage: "http://i.imgflip.com/1bij.jpg",
+    randomImage: "https://i.imgflip.com/1bij.jpg",
   });
 
   const [allMemeImages, setAllMemeImages] = useState([]);
