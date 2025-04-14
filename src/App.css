@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-purple: #672280; 
+  --color-light-purple: #A626D3;
+}
+
+
+input[type="text"] {
+  padding: 0.5rem;
+ 
+}
+
+.text{
+  position: absolute;
+  left: 50%;
+  text-align:center;
+  transform: translateX(-50%);
+  width: 80%;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+
+}
